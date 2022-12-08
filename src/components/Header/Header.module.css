@@ -1,0 +1,7 @@
+.header {
+    height: 5vh;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(110, 110, 226);
+}
