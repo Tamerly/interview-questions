@@ -12,9 +12,12 @@ export const Cards = (props) => {
 
 	return (
 		<div className={classes.cards}>
-			<h3>Карточки</h3>
-			{cardElements}
-
+			<div>
+				<h3>Карточки</h3>
+			</div>
+			<div className={classes.card_elements}>
+				{cardElements}
+			</div>
 		</div>
 	)
 }
