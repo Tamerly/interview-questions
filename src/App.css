@@ -19,8 +19,8 @@
 .app-header {
     width: 95%;
     height: 5%;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 24px;
 }
 
 .app-body {
@@ -33,13 +33,7 @@
     
 }
 
-.app-body-navbar {
-
-    flex-grow: 1;
-    margin-right: 5px;
-}
 
 .app-body-content {
-    flex-grow: 6;
-
+    flex-grow: 1;
 }
