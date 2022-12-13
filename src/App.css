@@ -11,7 +11,9 @@
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgb(173, 236, 215);
+    margin-bottom: 10px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 2%, rgba(255,255,255,1) 67%);
 }
 
 .app-header {
@@ -27,8 +29,8 @@
     flex-direction: row;
     align-items: stretch;
     margin-top: 5px;
-    height: 95%;
-
+    height: 93%;
+    
 }
 
 .app-body-navbar {

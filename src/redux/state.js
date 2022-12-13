@@ -1,0 +1,61 @@
+let store = {
+    _state: {
+        questions: {
+            list : [
+                { 'id': 1, 'question': 'Что такое ECMAScript', 'image': '' },
+                { 'id': 2, 'question': 'Что нового привнес в JS стандарт ES6 или ECMAScript2015', 'image': '' },
+                { 'id': 3, 'question': 'Для чего используется директива «use strict»', 'image': '' },
+                { 'id': 4, 'question': 'Что такое модули (Modules)', 'image': '' },
+                { 'id': 5, 'question': 'Назовите все типы данных в J', 'image': '' },
+                { 'id': 6, 'question': 'null и undefined - в чем сходства и различи', 'image': '' },
+                { 'id': 7, 'question': 'Что такое NaN? Как проверить, является ли значение NaN', 'image': '' },
+                { 'id': 8, 'question': 'Что такое шаблонные литералы (Template Literals)', 'image': '' },
+                { 'id': 9, 'question': 'Для чего используется оператор "!!"', 'image': '' },
+                { 'id': 10, 'question': ' Что такое объектная обертка (Wrapper Objects)', 'image': '' },
+                { 'id': 11, 'question': ' Как проверить, является ли значение массивом', 'image': '' },
+                { 'id': 12, 'question': ' Операторы и и или что возвращают? Что такое тернарный оператор', 'image': '' },
+                { 'id': 13, 'question': ' Операторы == и ==', 'image': '' },
+                { 'id': 14, 'question': ' В чем разница между явным и неявным преобразованием или приведением к типу (Implicit and Explicit Coercion)', 'image': '' },
+                { 'id': 15, 'question': ' Почему результатом сравнения двух похожих объектов является false', 'image': '' },
+                { 'id': 16, 'question': ' Почему typeof null возвращает object? Как проверить, является ли значение null', 'image': '' },
+                { 'id': 17, 'question': ' Как записать несколько выражений в одну строку', 'image': '' },
+                { 'id': 18, 'question': ' Что такое DOM', 'image': '' },
+                { 'id': 19, 'question': ' Распространение события (event propagation', 'image': '' },
+                { 'id': 20, 'question': ' event.preventDefault и event.stopPropagatio', 'image': '' },
+                { 'id': 21, 'question': ' event.target и event.currentTarge', 'image': '' },
+                { 'id': 22, 'question': ' Что такое область видимости (Scope)', 'image': '' },
+                { 'id': 23, 'question': ' Что такое поднятие (Hoisting)', 'image': '' },
+                { 'id': 24, 'question': ' Что такое замыкание (Closures)', 'image': '' },
+                { 'id': 25, 'question': ' В чем разница между ключевыми словами «var», «let» и «const»', 'image': '' },
+                { 'id': 26, 'question': ' В чем разница между обычной функцией и функциональным выражением', 'image': '' },
+                { 'id': 27, 'question': ' Почему функции в JS называют объектами первого класса (First-class Objects)', 'image': '' },
+                { 'id': 28, 'question': ' Что такое стрелочные функции (Arrow Functions)', 'image': '' },
+                { 'id': 29, 'question': ' Что такое функции высшего порядка (Higher Order Functions)', 'image': '' },
+                { 'id': 30, 'question': ' Что такое функция обратного вызова (Callback Function)', 'image': '' },
+                { 'id': 31, 'question': ' Что такое IIFE', 'image': '' },
+                { 'id': 32, 'question': ' Что такое объект arguments', 'image': '' },
+                { 'id': 33, 'question': ' Как в JS вызвать функцию? (все способы', 'image': '' },
+                { 'id': 34, 'question': ' Что такое запоминание или мемоизация (Memoization)', 'image': '' },
+                { 'id': 35, 'question': ' Как в JS создать объект? (все способы', 'image': '' },
+                { 'id': 36, 'question': ' Как определить наличие свойства в объекте? (все способы', 'image': '' },
+                { 'id': 37, 'question': ' Что такое деструктуризация объекта (Object Destructuring)', 'image': '' },
+                { 'id': 38, 'question': ' В чем разница между spread-оператором и rest-оператором', 'image': '' },
+                { 'id': 39, 'question': ' Как склонировать объект? (все способы', 'image': '' },
+                { 'id': 40, 'question': ' Что такое объект Set', 'image': '' },
+                { 'id': 41, 'question': ' Что такое прототип объекта', 'image': '' },
+                { 'id': 42, 'question': ' Как создать объект, не имеющий прототипа', 'image': '' },
+                { 'id': 43, 'question': ' Какое значение имеет this', 'image': '' },
+                { 'id': 44, 'question': ' call, apply, bin', 'image': '' },
+                { 'id': 45, 'question': ' Что такое классы (Classes)', 'image': '' },
+                { 'id': 46, 'question': ' Для чего используется ключевое слово «new»', 'image': '' },
+                { 'id': 47, 'question': ' Что такое AJAX', 'image': '' },
+                { 'id': 48, 'question': ' Что такое цикл событий event loop, и как он работает', 'image': '' },
+                { 'id': 49, 'question': ' Что такое промис', 'image': '' },
+                { 'id': 50, 'question': ' Что такое async/await? Как отловить ошибки', 'image': '' },
+                { 'id': 51, 'question': ' С помощью каких методов можно осуществить сразу несколько одновременных запросов на сервер? В чем их отличи', 'image': '' }]
+        }
+    }
+}
+
+export default store
+window.store = store
