@@ -15,6 +15,7 @@ const App = (props) => {
                     <Content questions={props.state.questions}/>
                 </div>
             </div>
+            <div className='page-bottom'></div>
     </div>
   );
 }

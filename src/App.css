@@ -12,12 +12,14 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 2%, rgba(255,255,255,1) 67%);
+    background: linear-gradient(rgba(8, 161, 103, 0.5), rgba(183, 255, 207, 0.5)),
+    url("https://api.ambr.top/assets/UI/UI_Gacha_AvatarImg_Alhatham.png");
+
 }
 
 .app-header {
     width: 95%;
+
     height: 5%;
     margin-top: 8px;
     margin-bottom: 24px;
@@ -36,4 +38,9 @@
 
 .app-body-content {
     flex-grow: 1;
+}
+
+.page-bottom {
+    width: 100%;
+    height: 10px;
 }

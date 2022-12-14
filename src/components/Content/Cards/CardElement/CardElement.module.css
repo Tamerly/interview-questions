@@ -1,10 +1,10 @@
 .card_element {
     display: flex;
-    flex-direction: row;
-    margin: 15px;
+    flex-direction: column;
+    margin: 16px;
     padding: 5px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 
     background: rgba(255, 255, 255, 0.2);
@@ -16,4 +16,15 @@
 
     width: 13em;
     height: 13rem;
+}
+
+.card_image {
+    width: 3em;
+    height: 3em;
+    border-radius: 5px;
+    box-shadow: 2px;
+}
+
+.card_description {
+
 }
